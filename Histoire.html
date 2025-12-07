@@ -6,21 +6,21 @@
         <link rel="icon" type="image/png" href="favicons\guitare-basse.avif">
         <link href="stylesheet.css" rel="stylesheet"/>
     </head>
-    <header>
-        <img src="favicons\menu.avif" alt="icone menu déroulant">
-        <nav class="menu">
-            <ul>
-                <li><a href="recap_concert.html">Derniers concerts</a></li>
-                <li><a href="Billeterie.html">Prochains concerts</a></li>
-                <li><a href="Histoire.html">Histoire du rock / métal</a></li>
-                <li><a href="forums.html">Forums</a></li>
-                <li onclick="document.getElementById('d').showModal()">Donnez un avis</li>
-            </ul>
-        </nav>
-        <img src="favicons\guitare-basse.avif" alt="logo du site">
-        <h1><a href="accueil.html">Rock O' Rama</a></h1>
-    </header>
     <body>
+        <header>
+            <img id="icoMenu" src="favicons\menu.avif" alt="icone menu déroulant">
+            <nav class="menu">
+                <ul>
+                    <li><a href="recap_concert.html">Derniers concerts</a></li>
+                    <li><a href="Billeterie.html">Prochains concerts</a></li>
+                    <li><a href="Histoire.html">Histoire du rock / métal</a></li>
+                    <li><a href="forums.html">Forums</a></li>
+                    <li onclick="document.getElementById('d').showModal()">Donnez un avis</li>
+                </ul>
+            </nav>
+            <img id="icoSite" src="favicons\guitare-basse.avif" alt="logo du site">
+            <h1><a href="accueil.html">Rock O' Rama</a></h1>
+        </header>
         <dialog id="d">
             <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
 			    <p>

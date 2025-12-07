@@ -1,0 +1,26 @@
+html {
+    background-color: #6C5454;
+}
+
+body {
+    
+}
+
+header {
+    background-color: #E4B4B4;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#icoMenu {
+    height: 50px;
+    width: 50px;
+}
+
+#icoSite{
+    height: 32px;
+    width: 32px;
+}
