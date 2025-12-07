@@ -3,16 +3,16 @@ html {
 }
 
 body {
-    
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #E4B4B4;
     align-items: center;
     display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: auto;
+    padding: 15px;
 }
 
 #icoMenu {
@@ -20,7 +20,10 @@ header {
     width: 50px;
 }
 
-#icoSite{
+#icoSite {
     height: 32px;
     width: 32px;
+}
+
+h1 {
 }
