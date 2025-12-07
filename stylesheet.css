@@ -12,20 +12,81 @@ header {
     align-items: center;
     display: flex;
     width: auto;
-    padding: 15px;
+    padding: 1rem;
 }
 
 #icoMenu {
-    height: 50px;
-    width: 50px;
+    height: 5rem;
+    width: 5rem;
 }
 
 #icoSite {
-    height: 32px;
-    width: 32px;
+    height: 3rem;
+    width: 3rem;
     margin-left: auto;
 }
 
 h1 {
-    margin-left: 15px;
+    margin-left: 1rem;
+}
+
+nav 
+{
+    width: 50%;
+    height: fit-content;
+}
+
+nav .pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .pages li
+{
+    width: auto;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+#icoMenu
+{
+    display: none;
+}
+
+#icoMenu, #toggle
+{
+    display: none;
+}
+
+@media all and (max-width: 991px)
+{
+    nav
+    {
+        height: auto;
+    }
+ 
+    nav .pages 
+    {
+        display: none;
+    }
+ 
+    #icoMenu 
+    {
+        width: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem ;
+        font-size: 5rem;
+        color: black;
+        cursor: pointer;
+    }
+
+    #toggle:checked + .pages {
+        display: block;
+    }
 }
