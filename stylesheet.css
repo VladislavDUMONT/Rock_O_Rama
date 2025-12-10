@@ -62,7 +62,7 @@ nav .pages li
     display: none;
 }
 
-@media all and (max-width: 991px)
+@media all and (max-width: 800px)
 {
     nav
     {
@@ -89,4 +89,44 @@ nav .pages li
     #toggle:checked + .pages {
         display: block;
     }
+}
+
+#logoUni {
+    height: 5rem;
+    width: 10rem;
+}
+
+footer {
+    background-color: #E4B4B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+#d {
+    border-radius: 2rem;
+    background-color: #E4B4B4;
+}
+
+.banner {
+    position: relative;
+    display: inline-block;
+}
+
+.banner img {
+    display: block;
+}
+
+.banner .bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    background-color: #E4B4B4;
+    padding: 2rem;
+    text-align: center;
 }
