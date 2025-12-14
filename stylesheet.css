@@ -118,6 +118,7 @@ footer {
 
 .banner img {
     display: block;
+    width: 100%;
 }
 
 .banner .bannerText {
@@ -148,4 +149,83 @@ h2 {
 .ancreImg {
     height: 25rem;
     width: auto;
+}
+
+.concert {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    justify-self: center;
+    background-color: #E4B4B4;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.like {
+    height: 4rem;
+    width: auto;
+}
+
+.compteur{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lien {
+    height: 4rem;
+    width: auto;
+}
+
+.concertContenu {
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.concertImg {
+    width: 20rem;
+    height: 20rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.contenuBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.histoireForum {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    text-align: center;
+    justify-self: center;
+    background-color: #E4B4B4;
+    display: block;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.sectionButton {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0rem;
+}
+
+.sectionButton img {
+    display: block;
+}
+
+.sectionButton .buttonPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

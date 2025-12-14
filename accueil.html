@@ -40,6 +40,7 @@
 			    </p>
 		    </form>
         </dialog>
+
         <section class="banner">
             <img 
                 src="images\batterie-tablette.avif" 
@@ -54,38 +55,76 @@
                 Rock O’ Rama, le site officiel du fan de rock et de métal
             </p>
         </section>
+
         <h2>Vos meilleurs concerts</h2>
-        <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.8K</p>
-            <p>Linkin Park, 11/07/25 Stade de France</p>
-            <img src="images\Linkin_Park_tel.avif" alt="image du groupe Linkin Park">
-            <img src="favicons/lien.avif" alt="bouton lien">
+
+        <section class="contenuBody">
+
+            <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" 
+                    src="images\Linkin_Park_tablette.avif"
+                    srcset="
+                        images\Linkin_Park_tel.avif 375w,
+                        images\Linkin_Park_tablette.avif 800w,
+                        images\Linkin_Park_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Linkin Park">
+                    <figcaption>Linkin Park, 11/07/25 Stade de France</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" src="favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">1.8K</p>
+                    <img class="lien" src="favicons/lien.avif" alt="bouton lien">
+                </ul>
+            </article>
+
+            <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" src="images\Gojira_tel.avif" alt="image du groupe Gojira">
+                    <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" src="favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">1.5K</p>
+                    <img class="lien" src="favicons/billet.avif" alt="bouton Billeterie">
+                </ul>
+            </article>
+
         </section>
-        <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.5K</p>
-            <p>Gojira, 06/12/25 Le Dôme</p>
-            <img src="images\Gojira_tel.avif" alt="image du groupe Gojira">
-            <img src="favicons/billet.avif" alt="bouton Billeterie">
-        </section>
+
         <h2>Débutant dans le rock?</h2>
-        <section>
-            <h3>Les Piliers Du Rock / Metal</h3>
-            <img src="images\histoire_tel.avif" alt="">
-            <button>Leur Histoire</button>
+
+        <section class="contenuBody">
+
+            <article class="histoireForum">
+                <h3>Les Piliers Du Rock / Metal</h3>
+                <ul class="sectionButton">
+                    <img class="imageButton" src="images\histoire_tel.avif" alt="">
+                    <button class="buttonPage">Leur Histoire</button>
+                </ul>
+            </article>
+
+            <article class="histoireForum">
+                <h3>Les Forums</h3>
+                <ul class="sectionButton">
+                    <img class="imageButton" src="images\debutant_tel.avif" alt="">
+                    <button class="buttonPage">Pour les nouveaux</button>
+                </ul>
+                <ul class="sectionButton">
+                    <img class="imageButton" src="images\forum_tel.avif" alt="">
+                    <button class="buttonPage">Accueil</button>
+                </ul>
+            </article>
+
         </section>
-        <section>
-            <h3>Les Forums</h3>
-            <img src="images\debutant_tel.avif" alt="">
-            <button>Pour les nouveaux</button>
-            <img src="images\forum_tel.avif" alt="">
-            <button>Accueil</button>
-        </section>
+
         <section class="ancre">
-            <img class="ancreImg" src="favicons/fleche-vers-le-haut.png" alt="Renvoie en haut de page">
+            <img class="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
             <p class="ancreText">Un coup de pouce pour remonter ?</p>
         </section>
+
         <footer>
             <ul>
                 <p>
