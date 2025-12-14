@@ -29,12 +29,13 @@
 
         <dialog id="d">
             <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
-                <p>Vous aimez Rock O' Rama ?</p>
+                <p id="titreForm">Vous aimez Rock O' Rama ?</p>
 			    <p>
 				    <label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
 				    <label for="nom">Nom</label><input id="nom" type="text" name="nom" value=" "><br>
 				    <input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label> 
-				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label><br>
+				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
+                    <input id="sexeAutre" type="radio" name="sexe" value="autre"><label for="sexeAutre">Autre</label><br>
 				    <textarea name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
 				    <input onclick="document.getElementById('d').close()" type="submit" value="Envoyer">
 			    </p>
@@ -51,9 +52,7 @@
                 "
                 sizes="100vw"
                 alt="image d'une batterie">
-            <p class="bannerText">
-                Rock O’ Rama, le site officiel du fan de rock et de métal
-            </p>
+            <p class="bannerText">Rock O’ Rama, le site officiel du fan de rock et de métal</p>
         </section>
 
         <h2>Vos meilleurs concerts</h2>
@@ -152,9 +151,9 @@
 
         </section>
 
-        <section class="ancre">
-            <img class="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
-            <p class="ancreText">Un coup de pouce pour remonter ?</p>
+        <section id="ancre">
+            <img id="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
+            <p id="ancreText">Un coup de pouce pour remonter ?</p>
         </section>
 
         <footer>

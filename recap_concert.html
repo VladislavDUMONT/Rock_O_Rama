@@ -8,18 +8,22 @@
     </head>
     <body>
         <header>
-            <img id="icoMenu" src="favicons\menu.avif" alt="icone menu déroulant">
-            <nav class="menu">
-                <ul>
+
+            <nav>
+                <label id="icoMenu" for="toggle">☰</label>
+                <input type="checkbox" id="toggle">
+                <ul class="pages">
                     <li><a href="recap_concert.html">Derniers concerts</a></li>
                     <li><a href="Billeterie.html">Prochains concerts</a></li>
                     <li><a href="Histoire.html">Histoire du rock / métal</a></li>
                     <li><a href="forums.html">Forums</a></li>
-                    <li onclick="document.getElementById('d').showModal()">Donnez un avis</li>
+                    <li><a onclick="document.getElementById('d').showModal()">Donnez un avis</a></li>
                 </ul>
             </nav>
+
             <img id="icoSite" src="favicons\guitare-basse.avif" alt="logo du site">
             <h1><a href="accueil.html">Rock O' Rama</a></h1>
+
         </header>
         <dialog id="d">
             <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
@@ -33,35 +37,60 @@
 			    </p>
 		    </form>
         </dialog>
-        <section>
-            <img src="images/recap_tel.avif" alt="image d'une batterie">
-            <p>
-                Les derniers récaps des concerts de l'année
-            </p>
+        <section class="contenuBody">
+
+            <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" 
+                    src="images\Linkin_Park_tablette.avif"
+                    srcset="
+                        images\Linkin_Park_tel.avif 375w,
+                        images\Linkin_Park_tablette.avif 800w,
+                        images\Linkin_Park_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Linkin Park">
+                    <figcaption>Linkin Park, 11/07/25 Stade de France</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" src="favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">1.8K</p>
+                    <img class="lien" src="favicons/lien.avif" alt="bouton lien">
+                </ul>
+            </article>
+
+            <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" 
+                    src="images\Linkin_Park_tablette.avif"
+                    srcset="
+                        images\Linkin_Park_tel.avif 375w,
+                        images\Linkin_Park_tablette.avif 800w,
+                        images\Linkin_Park_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Linkin Park">
+                    <figcaption>Linkin Park, 11/07/25 Stade de France</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" src="favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">1.8K</p>
+                    <img class="lien" src="favicons/lien.avif" alt="bouton lien">
+                </ul>
+            </article>
+
         </section>
-         <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.8K</p>
-            <p>Linkin Park, 11/07/25 Stade de France</p>
-            <img src="images\Linkin_Park_tel.avif" alt="image du groupe Linkin Park">
-            <img src="favicons/lien.avif" alt="bouton lien">
+
+        <section id="ancre">
+            <img id="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
+            <p id="ancreText">Un coup de pouce pour remonter ?</p>
         </section>
-        <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.8K</p>
-            <p>Linkin Park, 11/07/25 Stade de France</p>
-            <img src="images\Linkin_Park_tel.avif" alt="image du groupe Linkin Park">
-            <img src="favicons/lien.avif" alt="bouton lien">
-        </section>
-        <img src="favicons/fleche-vers-le-haut.png" alt="Renvoie en haut de page">
-        <p>
-            Un coup de pouce pour remonter ?
-        </p>    
+
         <footer>
-            <p>
-                Développé par :
-            </p>
             <ul>
+                <p>
+                Développé par :
+                </p>
                 <li>
                     DUMONT Vladislav
                 </li>
@@ -72,7 +101,7 @@
             <p>
                 © 2025 Rock O' Rama, IUT d'Aix-en-Provence tous droits réservés.
             </p>
-            <img src="favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
-        </footer>   
+            <img id="logoUni" src="favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
+        </footer>
     </body>
 </html>
