@@ -18,7 +18,7 @@
                     <li><a href="Billeterie.html">Prochains concerts</a></li>
                     <li><a href="Histoire.html">Histoire du rock / métal</a></li>
                     <li><a href="forums.html">Forums</a></li>
-                    <li onclick="document.getElementById('d').showModal()">Donnez un avis</li>
+                    <li><a onclick="document.getElementById('d').showModal()">Donnez un avis</a></li>
                 </ul>
             </nav>
 
@@ -82,7 +82,15 @@
 
             <article class="concert">
                 <figure class="concertContenu">
-                    <img class="concertImg" src="images\Gojira_tel.avif" alt="image du groupe Gojira">
+                    <img class="concertImg" 
+                    src="images\Gojira_tablette.avif" 
+                    srcset="
+                        images\Gojira_tel.avif 375w,
+                        images\Gojira_tablette.avif 800w,
+                        images\Gojira_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Gojira">
                     <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
                 </figure>
                 <ul class="concertContenu">
@@ -101,7 +109,15 @@
             <article class="histoireForum">
                 <h3>Les Piliers Du Rock / Metal</h3>
                 <ul class="sectionButton">
-                    <img class="imageButton" src="images\histoire_tel.avif" alt="">
+                    <img class="imageButton" 
+                    src="images\histoire_tablette.avif" 
+                    srcset="
+                        images\histoire_tel.avif 375w,
+                        images\histoire_tablette.avif 800w,
+                        images\histoire_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="">
                     <button class="buttonPage">Leur Histoire</button>
                 </ul>
             </article>
@@ -109,11 +125,27 @@
             <article class="histoireForum">
                 <h3>Les Forums</h3>
                 <ul class="sectionButton">
-                    <img class="imageButton" src="images\debutant_tel.avif" alt="">
+                    <img class="imageButton" 
+                    src="images\debutant_tablette.avif" 
+                    srcset="
+                        images\debutant_tel.avif 375w,
+                        images\debutant_tablette.avif 800w,
+                        images\debutant_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="">
                     <button class="buttonPage">Pour les nouveaux</button>
                 </ul>
                 <ul class="sectionButton">
-                    <img class="imageButton" src="images\forum_tel.avif" alt="">
+                    <img class="imageButton" 
+                    src="images\forum_tablette.avif"
+                    srcset="
+                        images\forum_tel.avif 375w,
+                        images\forum_tablette.avif 800w,
+                        images\forum_ordi.avif 1280w
+                    "
+                    sizes="100vw"  
+                    alt="">
                     <button class="buttonPage">Accueil</button>
                 </ul>
             </article>
