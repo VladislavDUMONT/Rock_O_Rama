@@ -1,5 +1,6 @@
 html {
     background-color: #6C5454;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -42,6 +43,11 @@ h1 a{
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
 }
 
 p, li, figcaption, textarea {
@@ -109,6 +115,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+footer * {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 #d {
@@ -181,21 +192,22 @@ h2 {
 }
 
 #ancre {
-    width: auto;
+    position: fixed;
+    left: 2vw;
+    bottom: 50%;
+    background-color: black;
+    border: solid #CD9B9B 2px;
+    border-radius: 2vw;
+    width: fit-content;
     height: auto;
     display: block;
     text-align: center;
-    margin: 2rem;
-}
-
-#ancreText {
-    font-size: 3rem;
-    color: #E4B4B4;
 }
 
 #ancreImg {
-    height: 25rem;
+    height: 5vw;
     width: auto;
+    margin: 1vw;
 }
 
 .concert {
@@ -218,8 +230,14 @@ h2 {
 }
 
 .like {
+    cursor: pointer;
     height: 4rem;
     width: auto;
+}
+
+.like.checked {
+  transform: scale(1.2);
+  filter: hue-rotate(300deg);
 }
 
 .compteur{
@@ -318,6 +336,11 @@ section {
 
 @media (max-width: 990px) 
 {
+    #logoUni {
+    width: 4rem;
+    height: auto;
+    }
+
     nav
     {
         height: auto;
