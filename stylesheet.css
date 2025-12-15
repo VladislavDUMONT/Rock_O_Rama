@@ -207,6 +207,7 @@ h2 {
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
+    max-width: 35%;
 }
 
 .like {
@@ -255,6 +256,21 @@ h2 {
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
+    max-width: 35%;
+}
+
+.texteSuppForum {
+    max-width: 25VW;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+.texteSuppForum2 {
+    max-width: 25VW;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
 }
 
 .sectionButton {
