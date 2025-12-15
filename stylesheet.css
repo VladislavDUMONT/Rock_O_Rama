@@ -15,6 +15,7 @@ header {
     align-items: center;
     display: flex;
     width: auto;
+    border-bottom: solid black 1px;
 }
 
 #icoMenu {
@@ -47,10 +48,19 @@ a {
 
 h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
+    color: #6C5454;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    -webkit-text-stroke: 0.01rem;
+    -webkit-text-stroke-color: #CD9B9B;
 }
 
-p, li, figcaption, textarea {
+h3 {
+    font-size: xx-large;
+}
+
+p, li, figcaption, textarea, h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
@@ -111,6 +121,7 @@ nav .pages li a:hover {
 }
 
 footer {
+    border-top: solid black 1px;
     background-color: #E4B4B4;
     display: flex;
     align-items: center;
@@ -168,6 +179,8 @@ footer * {
     display: block;
     width: 100%;
     aspect-ratio: 2/1;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 #banner p {
@@ -194,7 +207,7 @@ h2 {
 #ancre {
     position: fixed;
     left: 2vw;
-    bottom: 50%;
+    bottom: 40%;
     background-color: black;
     border: solid #CD9B9B 2px;
     border-radius: 2vw;
@@ -205,12 +218,13 @@ h2 {
 }
 
 #ancreImg {
-    height: 5vw;
+    height: 4vw;
     width: auto;
     margin: 1vw;
 }
 
 .concert {
+    border: solid black 1px;
     width: fit-content;
     height: fit-content;
     margin: 2rem;
@@ -262,6 +276,7 @@ h2 {
     object-fit: cover;
     margin-bottom: 1.5rem;
     border-radius: 1.5rem;
+    border: solid black 1px;
 }
 
 section {
@@ -272,6 +287,7 @@ section {
 } 
 
 .histoireForum {
+    border: solid black 1px;
     width: fit-content;
     height: fit-content;
     margin: 2rem;
@@ -318,6 +334,7 @@ section {
     width: 30rem;
     height: auto;
     border-radius: 2rem;
+    border: solid black 1px;
 }
 
 .sectionButton .buttonPage {
