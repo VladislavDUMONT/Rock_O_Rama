@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100%;;
 }
 
 header {
@@ -207,7 +207,13 @@ h2 {
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
-    max-width: 35%;
+}
+
+.textSuppConcert {
+    max-width: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
 }
 
 .like {
@@ -239,8 +245,9 @@ h2 {
     border-radius: 1.5rem;
 }
 
-.contenuBody {
+section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 } 
@@ -256,24 +263,17 @@ h2 {
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
-    max-width: 35%;
 }
 
 .texteSuppForum {
-    max-width: 25VW;
-    margin-left: auto;
-    margin-right: auto;
-    justify-self: center;
-}
-
-.texteSuppForum2 {
-    max-width: 25VW;
+    max-width: 25%;
     margin-left: auto;
     margin-right: auto;
     justify-self: center;
 }
 
 .sectionButton {
+    width: fit-content;
     display: flex;
     position: relative;
     display: inline-block;
@@ -296,7 +296,7 @@ h2 {
 
 .sectionButton img {
     display: block;
-    width: 30rem;
+    width: 100%;
     height: auto;
     border-radius: 2rem;
 }
