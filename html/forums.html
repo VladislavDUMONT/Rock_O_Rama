@@ -11,7 +11,8 @@
         <link href="../css/onglet.css" rel="stylesheet">
         <link href="../css/buttons.css" rel="stylesheet">
         <link href="../css/forms.css" rel="stylesheet">
-        <link href="../css/banners.css" rel="stylesheet">
+        <link href="../css/banner.css" rel="stylesheet">
+        <link href="../css/forum.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -57,64 +58,70 @@
                 "
                 sizes="100vw"
                 alt="Bannière du forum">
-            <p>Rock O’ Rama, le site officiel du fan de rock et de métal</p>
-        </section>
-
-        <section>
-            <img src="../images/forum_tel.avif" alt="">
             <p>Des groupes de discussion pour tout le monde</p>
         </section>
-        <h2>Forums</h2>
-        <ul>
-            <li><a href="">Forum 1</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 2</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 3</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 4</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 5</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-        </ul>
-        <h2>Pour les débutants</h2>
-        <ul>
-            <li><a href="">Forum 1</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 2</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 3</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 4</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-            <li><a href="">Forum 5</a></li>
-                <ul>
-                    <li>Description du forum</li>
-                </ul>
-        </ul>
 
-        <section id="ancre">
-            <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
-            <p id="ancreText">Un coup de pouce pour remonter ?</p>
+        <h2>Forums</h2>
+
+        <section class="listForum">
+            <label class="icoExtension" for="toggle1_1">+</label>
+            <input type="checkbox" id="toggle1_1" class="toggleForum">
+            <a class="titreForum" href="">Forum 1</a>
+            <ul class="descForum">
+                <li>Description du forum 1</li>
+            </ul>
         </section>
+
+        <section class="listForum">
+            <label class="icoExtension" for="toggle1_2">+</label>
+            <input type="checkbox" id="toggle1_2" class="toggleForum">
+            <a class="titreForum" href="">Forum 2</a>
+            <ul class="descForum">
+                <li>Description du forum 2</li>
+            </ul>
+        </section>
+
+        <section class="listForum">
+            <label class="icoExtension" for="toggle1_3">+</label>
+            <input type="checkbox" id="toggle1_3" class="toggleForum">
+            <a class="titreForum" href="">Forum 3</a>
+            <ul class="descForum">
+                <li>Description du forum 3</li>
+            </ul>
+        </section>
+
+        <h2>Pour les débutants</h2>
+        
+        <section class="listForum">
+            <label class="icoExtension" for="toggle2_1">+</label>
+            <input type="checkbox" id="toggle2_1" class="toggleForum">
+            <a class="titreForum" href="">Forum 1</a>
+            <ul class="descForum">
+                <li>Description du forum 1</li>
+            </ul>
+        </section>
+
+        <section class="listForum">
+            <label class="icoExtension" for="toggle2_2">+</label>
+            <input type="checkbox" id="toggle2_2" class="toggleForum">
+            <a class="titreForum" href="">Forum 2</a>
+            <ul class="descForum">
+                <li>Description du forum 2</li>
+            </ul>
+        </section>
+
+        <section class="listForum">
+            <label class="icoExtension" for="toggle2_3">+</label>
+            <input type="checkbox" id="toggle2_3" class="toggleForum">
+            <a class="titreForum" href="">Forum 3</a>
+            <ul class="descForum">
+                <li>Description du forum 3</li>
+            </ul>
+        </section>
+
+        <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
+            <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
+        </a>
 
         <footer>
             <ul>
