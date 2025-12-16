@@ -11,7 +11,7 @@
         <link href="../css/onglet.css" rel="stylesheet">
         <link href="../css/buttons.css" rel="stylesheet">
         <link href="../css/forms.css" rel="stylesheet">
-        <link href="../css/banners.css" rel="stylesheet">
+        <link href="../css/banner.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -58,11 +58,12 @@
                 "
                 sizes="100vw"
                 alt="Bannière des recaps">
+            <p>Les derniers récaps des concerts de l'année</p>
         </section>
 
-        <section class="contenuBody">
+        <h2>Derniers concerts</h2>
 
-            <article class="concert">
+        <article class="concert">
                 <figure class="concertContenu">
                     <img class="concertImg" 
                     src="../images/Linkin_Park_tablette.avif"
@@ -76,10 +77,15 @@
                     <figcaption>Linkin Park, 11/07/25 Stade de France</figcaption>
                 </figure>
                 <ul class="concertContenu">
-                    <img class="like" src="../favicons/rock-and-roll.avif" alt="bouton like">
-                    <p class="compteur">1.8K</p>
-                    <img class="lien" src="../favicons/lien.avif" alt="bouton lien">
+                    <img class="like" data-id="linkin" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">0</p>
+                    <a href="https://www.stadefrance.com/fr/le-stade/linkin-park-au-stade-de-france" alt="Lien vers l'article du Stade de France">
+                        <img class="lien" src="../favicons/lien.avif" alt="bouton lien">
+                    </a>
                 </ul>
+                <p class="textSuppConcert">
+                    Ils ont joué des monuments tels que Heavy is the Crown, Faint, Numb ou encore In The End
+                </p>
             </article>
 
             <article class="concert">
@@ -96,18 +102,20 @@
                     <figcaption>Linkin Park, 11/07/25 Stade de France</figcaption>
                 </figure>
                 <ul class="concertContenu">
-                    <img class="like" src="../favicons/rock-and-roll.avif" alt="bouton like">
-                    <p class="compteur">1.8K</p>
-                    <img class="lien" src="../favicons/lien.avif" alt="bouton lien">
+                    <img class="like" data-id="linkin" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">0</p>
+                    <a href="https://www.stadefrance.com/fr/le-stade/linkin-park-au-stade-de-france" alt="Lien vers l'article du Stade de France">
+                        <img class="lien" src="../favicons/lien.avif" alt="bouton lien">
+                    </a>
                 </ul>
+                <p class="textSuppConcert">
+                    Ils ont joué des monuments tels que Heavy is the Crown, Faint, Numb ou encore In The End
+                </p>
             </article>
 
-        </section>
-
-        <section id="ancre">
+        <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
             <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
-            <p id="ancreText">Un coup de pouce pour remonter ?</p>
-        </section>
+        </a>
 
         <footer>
             <ul>
@@ -128,5 +136,6 @@
                 <img id="logoUni" src="../favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
             </a>
         </footer>
+        <script src="../script.js"></script>
     </body>
 </html>
