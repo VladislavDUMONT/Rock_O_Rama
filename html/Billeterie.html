@@ -11,7 +11,7 @@
         <link href="../css/onglet.css" rel="stylesheet">
         <link href="../css/buttons.css" rel="stylesheet">
         <link href="../css/forms.css" rel="stylesheet">
-        <link href="../css/banners.css" rel="stylesheet">
+        <link href="../css/banner.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -57,34 +57,64 @@
                 "
                 sizes="100vw"
                 alt="Bannière de la billeterie">
-            <p>Rock O’ Rama, le site officiel du fan de rock et de métal</p>
+            <p>Les billeteries des concerts à venir</p>
         </section>
 
-        <section>
-            <img src="../images/batterie-tel.avif" alt="image d'une batterie">
-            <p>
-                Les billeteries de vos prochains concerts
-            </p>
-        </section>
-         <section>
-            <img src="../favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.5K</p>
-            <p>Gojira, 06/12/25 Le Dôme</p>
-            <img src="../images/Gojira_tel.avif" alt="image du groupe Gojira">
-            <img src="../favicons/billet.avif" alt="bouton Billeterie">
-        </section>
-        <section>
-            <img src="../favicons/rock-and-roll.avif" alt="bouton like">
-            <p>1.5K</p>
-            <p>Gojira, 06/12/25 Le Dôme</p>
-            <img src="../images/Gojira_tel.avif" alt="image du groupe Gojira">
-            <img src="../favicons/billet.avif" alt="bouton Billeterie">
-        </section>
+        <h2>Prochains concerts</h2>
 
-        <section id="ancre">
+        <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" 
+                    src="../images/Gojira_tablette.avif" 
+                    srcset="
+                        ../images/Gojira_tel.avif 375w,
+                        ../images/Gojira_tablette.avif 800w,
+                        ../images/Gojira_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Gojira">
+                    <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" data-id="gojira" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">0</p>
+                    <a href="https://www.ticketmaster.fr/fr" alt="Lien vers TicketMaster">
+                        <img class="lien" src="../favicons/billet.avif" alt="bouton Billeterie">
+                    </a>
+                </ul>
+                <p class="textSuppConcert">
+                    Avec Comeback Kid en première partie, ils ont joué Silvera, Stranded, ou encore Flying Whales, accompagnés d'une baleine volante dirigée par drône
+                </p>
+            </article>
+
+            <article class="concert">
+                <figure class="concertContenu">
+                    <img class="concertImg" 
+                    src="../images/Gojira_tablette.avif" 
+                    srcset="
+                        ../images/Gojira_tel.avif 375w,
+                        ../images/Gojira_tablette.avif 800w,
+                        ../images/Gojira_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="image du groupe Gojira">
+                    <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
+                </figure>
+                <ul class="concertContenu">
+                    <img class="like" data-id="gojira" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                    <p class="compteur">0</p>
+                    <a href="https://www.ticketmaster.fr/fr" alt="Lien vers TicketMaster">
+                        <img class="lien" src="../favicons/billet.avif" alt="bouton Billeterie">
+                    </a>
+                </ul>
+                <p class="textSuppConcert">
+                    Avec Comeback Kid en première partie, ils ont joué Silvera, Stranded, ou encore Flying Whales, accompagnés d'une baleine volante dirigée par drône
+                </p>
+            </article>
+
+        <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
             <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
-            <p id="ancreText">Un coup de pouce pour remonter ?</p>
-        </section>
+        </a>
 
        <footer>
             <ul>
@@ -104,6 +134,7 @@
             <a href="https://www.univ-amu.fr/" alt="Lien vers le site d'AMU">
                 <img id="logoUni" src="../favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
             </a>
-        </footer>    
+        </footer>
+        <script src="../script.js"></script>    
     </body>
 </html>
