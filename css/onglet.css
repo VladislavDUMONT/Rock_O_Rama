@@ -1,0 +1,59 @@
+.concert {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    justify-self: center;
+    background-color: #E4B4B4;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.textSuppConcert {
+    max-width: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+.concertContenu {
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.concertImg {
+    width: 20rem;
+    height: 20rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.histoireForum {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    text-align: center;
+    justify-self: center;
+    background-color: #E4B4B4;
+    display: block;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.textSuppForum {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+@media (max-width: 732px) 
+{
+  .textSuppConcert{
+    display: none;
+  }
+}

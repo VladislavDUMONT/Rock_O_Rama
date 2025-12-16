@@ -1,0 +1,24 @@
+#banner {
+    position: relative;
+    display: inline-block;
+}
+
+#banner img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+#banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    font-size: 4vw;
+    padding: 3rem;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #CD9B9B;
+    -webkit-text-stroke: 0.1rem;
+    -webkit-text-stroke-color: #6C5454;
+}

@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+
+#ancre {
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 2rem;
+}
+
+#ancreText {
+    font-size: 3rem;
+    color: #E4B4B4;
+}
+
+#ancreImg {
+    height: 25rem;
+    width: auto;
+}
+
+.like {
+    height: 4rem;
+    width: auto;
+}
+
+.lien {
+    height: 4rem;
+    width: auto;
+}
+
+.compteur{
+    text-align: center;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,24 @@
+header {
+    background-color: #E4B4B4;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+
+footer {
+    background-color: #E4B4B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#icoSite {
+    height: 3rem;
+    width: auto;
+    margin-left: auto;
+}
+
+#logoUni {
+    height: 5rem;
+    width: auto;
+}

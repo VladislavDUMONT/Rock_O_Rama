@@ -3,8 +3,15 @@
     <head>
         <meta charset="utf-8">
         <title>Rock O' Rama - Billeterie</title>
-        <link rel="icon" type="image/png" href="favicons\guitare-basse.avif">
-        <link href="stylesheet.css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="../favicons/guitare-basse.avif">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/header-footer.css" rel="stylesheet">
+        <link href="../css/nav.css" rel="stylesheet">
+        <link href="../css/layout.css" rel="stylesheet">
+        <link href="../css/onglet.css" rel="stylesheet">
+        <link href="../css/buttons.css" rel="stylesheet">
+        <link href="../css/forms.css" rel="stylesheet">
+        <link href="../css/banners.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -21,59 +28,61 @@
                 </ul>
             </nav>
 
-            <img id="icoSite" src="favicons\guitare-basse.avif" alt="logo du site">
+            <img id="icoSite" src="../favicons/guitare-basse.avif" alt="logo du site">
             <h1><a href="accueil.html">Rock O' Rama</a></h1>
 
         </header>
         <dialog id="d">
             <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
+                <p id="titreForm">Vous aimez Rock O' Rama ?</p>
 			    <p>
 				    <label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
 				    <label for="nom">Nom</label><input id="nom" type="text" name="nom" value=" "><br>
 				    <input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label> 
-				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label><br>
-				    <textarea name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
-				    <input type="submit" value="Envoyer">
+				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
+                    <input id="sexeAutre" type="radio" name="sexe" value="autre"><label for="sexeAutre">Autre</label><br>
+				    <textarea id="impression" name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
+				    <input id="buttonSubmit" onclick="document.getElementById('d').close()" type="submit" value="Envoyer">
 			    </p>
 		    </form>
         </dialog>
 
         <section id="banner">
             <img 
-                src="images\billeterie_tablette.avif" 
+                src="../images/billeterie_tablette.avif" 
                 srcset="
-                    images\billeterie_tel.avif 375w,
-                    images\billeterie_tablette.avif 800w,
-                    images\billeterie_ordi.avif 1280w
+                    ../images/billeterie_tel.avif 375w,
+                    ../images/billeterie_tablette.avif 800w,
+                    ../images/billeterie_ordi.avif 1280w
                 "
                 sizes="100vw"
-                alt="image d'une batterie">
+                alt="Bannière de la billeterie">
             <p>Rock O’ Rama, le site officiel du fan de rock et de métal</p>
         </section>
 
         <section>
-            <img src="images/batterie-tel.avif" alt="image d'une batterie">
+            <img src="../images/batterie-tel.avif" alt="image d'une batterie">
             <p>
                 Les billeteries de vos prochains concerts
             </p>
         </section>
          <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
+            <img src="../favicons/rock-and-roll.avif" alt="bouton like">
             <p>1.5K</p>
             <p>Gojira, 06/12/25 Le Dôme</p>
-            <img src="images\Gojira_tel.avif" alt="image du groupe Gojira">
-            <img src="favicons/billet.avif" alt="bouton Billeterie">
+            <img src="../images/Gojira_tel.avif" alt="image du groupe Gojira">
+            <img src="../favicons/billet.avif" alt="bouton Billeterie">
         </section>
         <section>
-            <img src="favicons/rock-and-roll.avif" alt="bouton like">
+            <img src="../favicons/rock-and-roll.avif" alt="bouton like">
             <p>1.5K</p>
             <p>Gojira, 06/12/25 Le Dôme</p>
-            <img src="images\Gojira_tel.avif" alt="image du groupe Gojira">
-            <img src="favicons/billet.avif" alt="bouton Billeterie">
+            <img src="../images/Gojira_tel.avif" alt="image du groupe Gojira">
+            <img src="../favicons/billet.avif" alt="bouton Billeterie">
         </section>
 
         <section id="ancre">
-            <img id="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
+            <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
             <p id="ancreText">Un coup de pouce pour remonter ?</p>
         </section>
 
@@ -86,13 +95,15 @@
                     DUMONT Vladislav
                 </li>
                 <li>
-                    DURAND Kalvin
+                    DURAN Kalvin
                 </li>
             </ul>
             <p>
                 © 2025 Rock O' Rama, IUT d'Aix-en-Provence tous droits réservés.
             </p>
-            <img id="logoUni" src="favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
+            <a href="https://www.univ-amu.fr/" alt="Lien vers le site d'AMU">
+                <img id="logoUni" src="../favicons/Aix-Marseille_Université_Logo_2024.png" alt="logo IUT">
+            </a>
         </footer>    
     </body>
 </html>

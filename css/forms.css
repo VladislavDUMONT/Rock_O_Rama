@@ -1,0 +1,35 @@
+#d {
+    border-radius: 2rem;
+    background-color: #E4B4B4;
+}
+
+#form {
+    display: block;
+    text-align: center;
+}
+
+#prenom, #nom, #impression {
+    margin: 1vw;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#buttonSubmit {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-radius: 1rem;
+    background-color: #6C5454;
+    color: #CD9B9B;
+    -webkit-text-stroke: 0.05rem;
+    -webkit-text-stroke-color: black;
+}
+
+#titreForm{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6C5454;
+    -webkit-text-stroke: 0.05rem;
+    -webkit-text-stroke-color: #CD9B9B;
+}
