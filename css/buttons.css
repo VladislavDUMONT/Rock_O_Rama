@@ -11,6 +11,7 @@
     width: 30rem;
     height: auto;
     border-radius: 2rem;
+    border: solid black 1px;
 }
 
 .buttonPage {

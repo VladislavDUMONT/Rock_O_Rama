@@ -7,6 +7,8 @@
     display: block;
     width: 100%;
     aspect-ratio: 2/1;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
 }
 
 #banner p {

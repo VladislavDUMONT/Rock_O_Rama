@@ -1,5 +1,6 @@
 html {
     background-color: #6C5454;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,9 +30,21 @@ h2 {
     background-color: #E4B4B4;
     padding: 2rem;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    color: #6C5454;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    -webkit-text-stroke: 0.01rem;
+    -webkit-text-stroke-color: #CD9B9B;
 }
 
-p, li, figcaption, textarea {
+h3 {
+    font-size: xx-large;
+}
+
+
+p, li, figcaption, textarea, h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }

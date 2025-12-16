@@ -3,6 +3,10 @@ nav {
     height: fit-content;
 }
 
+nav input[type="checkbox"] {
+    display: none;
+}
+
 nav .pages {
     display: flex;
     justify-content: space-evenly;

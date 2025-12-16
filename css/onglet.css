@@ -8,6 +8,7 @@
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
+    border: solid black 1px;
 }
 
 .textSuppConcert {
@@ -29,6 +30,7 @@
     object-fit: cover;
     margin-bottom: 1.5rem;
     border-radius: 1.5rem;
+    border: solid black 1px;
 }
 
 .histoireForum {
@@ -42,6 +44,7 @@
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
+    border: solid black 1px;
 }
 
 .textSuppForum {

@@ -3,13 +3,20 @@ header {
     align-items: center;
     display: flex;
     width: auto;
+    border-bottom: solid black 1px;
 }
 
 footer {
+    border-top: solid black 1px;
     background-color: #E4B4B4;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+footer * {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 #icoSite {
