@@ -12,6 +12,7 @@
         <link href="../css/buttons.css" rel="stylesheet">
         <link href="../css/forms.css" rel="stylesheet">
         <link href="../css/banner.css" rel="stylesheet">
+        <link href="../css/histoire.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -61,17 +62,36 @@
         </section>
 
         <h2>Histoire</h2>
+        
+        <article class="histoire">
+                <figure class="histoireContenu">
+                    <img class="histoireImg" 
+                    src="../images/histoire_rock_tablette.avif" 
+                    srcset="
+                        ../images/histoire_rock_tel.avif 375w,
+                        ../images/histoire_rock_tablette.avif 800w,
+                        ../images/histoire_rock_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="">
+                    <figcaption>Le rock, ça vient d'où ?</figcaption>
+                </figure>
+            </article>
 
-        <section>
-            <img src="../images/histoire_rock_tel.avif" alt="">
-            <p>Le rock</p>
-            <p>Texte qui explique brièvement l'histoire du rock</p>
-        </section>
-        <section>
-            <img src="../images/histoire_metal_tel.avif" alt="">
-            <p>Le metal</p>
-            <p>Texte qui explique brièvement l'histoier du metal</p>
-        </section>
+        <article class="histoire">
+                <figure class="histoireContenu">
+                    <img class="histoireImg" 
+                    src="../images/histoire_metal_tablette.avif" 
+                    srcset="
+                        ../images/histoire_metal_tel.avif 375w,
+                        ../images/histoire_metal_tablette.avif 800w,
+                        ../images/histoire_metal_ordi.avif 1280w
+                    "
+                    sizes="100vw" 
+                    alt="">
+                    <figcaption>Le métal, ça vient d'où ?</figcaption>
+                </figure>
+            </article>
 
         <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
             <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">

@@ -1,0 +1,27 @@
+.histoire {
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    justify-self: center;
+    background-color: #E4B4B4;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+    border: solid black 1px;
+}
+
+.histoireContenu {
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.histoireImg {
+    width: 35rem;
+    height: 25rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    border: solid black 1px;
+}
