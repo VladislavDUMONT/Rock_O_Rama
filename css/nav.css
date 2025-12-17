@@ -1,3 +1,10 @@
+:root {
+    --main-color: #6C5454;
+    --secondary-color: #E4B4B4;
+    --accent-color: #CD9B9B;
+    --text-color : #000000;
+}
+
 nav {
     width: auto;
     height: fit-content;
@@ -21,13 +28,13 @@ nav .pages li {
     margin: 1rem;
     display: flex;
     align-items: center;
-    color: black;
+    color: var(--text-color);
     cursor: pointer;
 }
 
 nav .pages li a {
     display: block;
-    color: black;
+    color: var(--text-color);
     padding: 2rem;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -36,7 +43,7 @@ nav .pages li a {
 }
 
 nav .pages li a:hover {
-    background-color: #CD9B9B;
+    background-color: var(--accent-color);
 }
 
 #icoMenu {
@@ -59,7 +66,7 @@ nav .pages li a:hover {
         align-items: center;
         margin-left: 2rem ;
         font-size: 5rem;
-        color: black;
+        color:  var(--text-color);
         cursor: pointer;
     }
 

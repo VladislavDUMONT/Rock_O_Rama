@@ -1,14 +1,21 @@
+:root {
+    --main-color: #6C5454;
+    --secondary-color: #E4B4B4;
+    --accent-color: #CD9B9B;
+    --text-color : #000000;
+}
+
 .concert {
     width: fit-content;
     height: fit-content;
     margin: 2rem;
     justify-self: center;
-    background-color: #E4B4B4;
+    background-color: var(--secondary-color);
     display: flex;
     padding: 1rem;
     align-items: center;
     border-radius: 1.5rem;
-    border: solid black 1px;
+    border: solid var(--text-color) 1px;
 }
 
 .textSuppConcert {
@@ -30,7 +37,7 @@
     object-fit: cover;
     margin-bottom: 1.5rem;
     border-radius: 1.5rem;
-    border: solid black 1px;
+    border: solid var(--text-color) 1px;
 }
 
 .histoireForum {
@@ -39,7 +46,7 @@
     margin: 2rem;
     text-align: center;
     justify-self: center;
-    background-color: #E4B4B4;
+    background-color: var(--secondary-color);
     display: block;
     padding: 1rem;
     align-items: center;

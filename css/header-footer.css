@@ -1,14 +1,21 @@
+:root {
+    --main-color: #6C5454;
+    --secondary-color: #E4B4B4;
+    --accent-color: #CD9B9B;
+    --text-color : #000000;
+}
+
 header {
-    background-color: #E4B4B4;
+    background-color: var(--secondary-color);
     align-items: center;
     display: flex;
     width: auto;
-    border-bottom: solid black 1px;
+    border-bottom: solid var(--text-color) 1px;
 }
 
 footer {
-    border-top: solid black 1px;
-    background-color: #E4B4B4;
+    border-top: solid var(--text-color) 1px;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-evenly;

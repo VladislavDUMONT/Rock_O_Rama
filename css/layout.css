@@ -1,3 +1,10 @@
+:root {
+    --main-color: #6C5454;
+    --secondary-color: #E4B4B4;
+    --accent-color: #CD9B9B;
+    --text-color : #000000;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -8,9 +15,9 @@ section {
 #ancre {
     position: fixed;
     left: 2vw;
-    bottom: 40%;
+    bottom: 30%;
     background-color: black;
-    border: solid #CD9B9B 2px;
+    border: solid var(--accent-color) 2px;
     border-radius: 2vw;
     width: fit-content;
     height: auto;

@@ -1,3 +1,10 @@
+:root {
+    --main-color: #6C5454;
+    --secondary-color: #E4B4B4;
+    --accent-color: #CD9B9B;
+    --text-color : #000000;
+}
+
 #banner {
     position: relative;
     display: inline-block;
@@ -7,8 +14,8 @@
     display: block;
     width: 100%;
     aspect-ratio: 2/1;
-    border-bottom: solid black 1px;
-    border-top: solid black 1px;
+    border-bottom: solid var(--text-color) 1px;
+    border-top: solid var(--text-color) 1px;
 }
 
 #banner p {
@@ -20,7 +27,7 @@
     font-size: 4vw;
     padding: 3rem;
     background-color: rgb(0, 0, 0, 0.5);
-    color: #CD9B9B;
+    color: var(--accent-color);
     -webkit-text-stroke: 0.1rem;
-    -webkit-text-stroke-color: #6C5454;
+    -webkit-text-stroke-color: var(--main-color);
 }
