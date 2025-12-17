@@ -25,3 +25,26 @@
     border-radius: 1.5rem;
     border: solid var(--text-color) 1px;
 }
+
+.histoireIMG {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.videoContainer {
+    position: relative;
+}
+
+.videoHistoire {
+    position: absolute;
+    bottom: 25vh;     
+    right: 12vw;    
+    height: 80vh;
+    width: 70vw;
+    max-width: 900px;
+    aspect-ratio: 16 / 9;
+    border-radius: 1.5rem;
+    border: 3px solid #CD9B9B;
+}
