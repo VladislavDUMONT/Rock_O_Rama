@@ -33,18 +33,14 @@
     gap: 2rem;
 }
 
-.videoContainer {
-    position: relative;
-}
-
 .videoHistoire {
-    position: absolute;
-    bottom: 25vh;     
-    right: 12vw;    
-    height: 80vh;
-    width: 70vw;
+    display: block;
+    margin: 1rem auto;
+    justify-self: center;
+    background-color: black;  
+    height: 35rem;
+    width: 35rem;
     max-width: 900px;
-    aspect-ratio: 16 / 9;
     border-radius: 1.5rem;
-    border: 3px solid #CD9B9B;
+    border: 3px solid var(--accent-color);
 }
