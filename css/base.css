@@ -44,7 +44,7 @@ h3 {
 }
 
 
-p, li, figcaption, textarea, h3, ul{
+p, li, figcaption, textarea, h3{
     color: var(--text-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
