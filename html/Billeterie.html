@@ -34,7 +34,7 @@
 
         </header>
         <dialog id="d">
-            <form id="form" method="post" action="https://formspree.io/f/mwveeyoa">
+            <form id="form" method="post" enctype="text/plain">
                 <p id="titreForm">Vous aimez Rock O' Rama ?</p>
 			    <p>
 				    <label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
@@ -43,7 +43,7 @@
 				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
                     <input id="sexeAutre" type="radio" name="sexe" value="autre"><label for="sexeAutre">Autre</label><br>
 				    <textarea id="impression" name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
-				    <input id="buttonSubmit" type="submit" value="Envoyer">
+				    <input id="buttonSubmit" onclick="document.getElementById('d').close()" type="submit" value="Envoyer">
 			    </p>
 		    </form>
         </dialog>
@@ -62,62 +62,61 @@
         </section>
 
         <h2>Prochains concerts</h2>
-        
         <section>
             <article class="concert">
-                <figure class="concertContenu">
-                    <img class="concertImg" 
-                    src="images/Gojira_tablette.avif" 
-                    srcset="
-                        images/Gojira_tel.avif 375w,
-                        images/Gojira_tablette.avif 800w,
-                        images/Gojira_ordi.avif 1280w
-                    "
-                    sizes="100vw" 
-                    alt="image du groupe Gojira">
-                    <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
-                </figure>
-                <ul class="concertContenu">
-                    <li>
-                        <img class="like" data-id="gojira" src="favicons/rock-and-roll.avif" alt="bouton like">
-                        <p class="compteur">0</p>
-                        <a href="https://www.ticketmaster.fr/fr" alt="Lien vers TicketMaster">
-                            <img class="lien" src="favicons/billet.avif" alt="bouton Billeterie">
-                        </a>
-                    </li>
-                </ul>
-                <p class="textSuppConcert">
-                    Avec Comeback Kid en première partie, ils ont joué Silvera, Stranded, ou encore Flying Whales, accompagnés d'une baleine volante dirigée par drône
-                </p>
-            </article>
+                    <figure class="concertContenu">
+                        <img class="concertImg" 
+                        src="../images/soad_tablette.avif" 
+                        srcset="
+                            ../images/soad_tel.avif 375w,
+                            ../images/soad_tablette.avif 800w,
+                            ../images/soad_ordi.avif 1280w
+                        "
+                        sizes="100vw" 
+                        alt="image du groupe System Of A Down">
+                        <figcaption>System Of A Down, 02/07/26 Le Stade de France</figcaption>
+                    </figure>
+                    <ul class="concertContenu">
+                        <li>
+                            <img class="like" data-id="soad" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                            <p class="compteur">0</p>
+                            <a href="https://www.ticketmaster.fr/fr/manifestation/system-of-a-down-billet/idmanif/635206">
+                                <img class="lien" src="../favicons/billet.avif" alt="bouton Billeterie">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="textSuppConcert">
+                        Pour leur retour triomphal en Europe, ils prévoient Queens of The Stone Age et Acid Bath en première partie, la setlist n'est pas encore disponible.
+                    </p>
+                </article>
 
-            <article class="concert">
-                <figure class="concertContenu">
-                    <img class="concertImg" 
-                    src="images/Gojira_tablette.avif" 
-                    srcset="
-                        images/Gojira_tel.avif 375w,
-                        images/Gojira_tablette.avif 800w,
-                        images/Gojira_ordi.avif 1280w
-                    "
-                    sizes="100vw" 
-                    alt="image du groupe Gojira">
-                    <figcaption>Gojira, 06/12/25 Le Dôme</figcaption>
-                </figure>
-                <ul class="concertContenu">
-                    <li>
-                        <img class="like" data-id="gojira" src="favicons/rock-and-roll.avif" alt="bouton like">
-                        <p class="compteur">0</p>
-                        <a href="https://www.ticketmaster.fr/fr" alt="Lien vers TicketMaster">
-                            <img class="lien" src="favicons/billet.avif" alt="bouton Billeterie">
-                        </a>
-                    </li>
-                </ul>
-                <p class="textSuppConcert">
-                    Avec Comeback Kid en première partie, ils ont joué Silvera, Stranded, ou encore Flying Whales, accompagnés d'une baleine volante dirigée par drône
-                </p>
-            </article>
-        </section>
+                <article class="concert">
+                    <figure class="concertContenu">
+                        <img class="concertImg" 
+                        src="../images/Deftones_tablette.avif" 
+                        srcset="
+                            ../images/Deftones_tel.avif 375w,
+                            ../images/Deftones_tablette.avif 800w,
+                            ../images/Deftones_ordi.avif 1280w
+                        "
+                        sizes="100vw" 
+                        alt="image du groupe Deftones">
+                        <figcaption>Deftones, 29/01/26 Adidas Arena</figcaption>
+                    </figure>
+                    <ul class="concertContenu">
+                        <li>
+                            <img class="like" data-id="deftones" src="../favicons/rock-and-roll.avif" alt="bouton like">
+                            <p class="compteur">0</p>
+                            <a href="https://www.ticketmaster.fr/fr/manifestation/deftones-billet/idmanif/630030">
+                                <img class="lien" src="../favicons/billet.avif" alt="bouton Billeterie">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="textSuppConcert">
+                        Après 8 ans, ils reviennent enfin à Paris avec un nouvel album sorti en 2025. Nous ne savons pas encore qui ils accueilleront en première partie ni leur
+                    </p>
+                </article>
+            </section>
 
         <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
             <img id="ancreImg" src="../favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
