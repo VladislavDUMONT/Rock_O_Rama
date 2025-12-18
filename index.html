@@ -19,10 +19,11 @@
 
     <body>
         <header>
-
+            <!--Menu de navigation responsive et menu burger-->
             <nav>
                 <label id="icoMenu" for="toggle">☰</label>
                 <input type="checkbox" id="toggle">
+                <!--Liens ers les autvres pages du site-->
                 <ul class="pages">
                     <li><a href="html/recap_concert.html">Derniers concerts</a></li>
                     <li><a href="html/Billeterie.html">Prochains concerts</a></li>
@@ -31,13 +32,14 @@
                     <li><a onclick="document.getElementById('d').showModal()" href="#">Donnez un avis</a></li>
                 </ul>
             </nav>
-
+            <!--Iône qui sert à changer de thème-->
             <img id="icoSite" src="favicons/guitare-basse.avif" title="Changer de thème" alt="Bouton de thème">
             <h1><a href="index.html" title="Accueil">Rock O' Rama</a></h1>
 
         </header>
 
         <dialog id="d">
+            <!--Formulaire-->
             <form id="form" method="post" action="https://formspree.io/f/mwveeyoa">
                 <p id="titreForm">Vous aimez Rock O' Rama ?</p>
 			    <p>
@@ -51,7 +53,7 @@
 			    </p>
 		    </form>
         </dialog>
-
+        <!--Bannière responsive-->
         <section id="banner">
             <img 
                 src="images/batterie-tablette.avif" 
@@ -67,8 +69,8 @@
 
         <h2>Vos meilleurs concerts</h2>
 
+        <!--Redirige vers les recaps des concerts-->
         <section>
-
             <article class="concert">
                 <figure class="concertContenu">
                     <img class="concertImg" 
@@ -189,12 +191,13 @@
             </article>
 
         </section>
-
+        <!--Bouton permettant de remonter en haut de page-->
         <a href="#" title="Un coup de pouce pour remonter ?" id="ancre">
             <img id="ancreImg" src="favicons/fleche-vers-le-haut.avif" alt="Renvoie en haut de page">
         </a>
 
         <footer>
+            <!--Crédits développeur-->
             <ul>
                 <li id="credits">
                 Développé par :
@@ -206,9 +209,11 @@
                     DURAN Kalvin
                 </li>
             </ul>
+            <!--Mentions légales-->
             <p>
                 © 2025 Rock O' Rama, IUT d'Aix-en-Provence tous droits réservés.
             </p>
+            <!--Lien vers l'université avec logo-->
             <a href="https://www.univ-amu.fr/">
                 <img id="logoUni" src="favicons/Aix-Marseille_Université_Logo_2024.png" alt="Lien vers le site d'AMU">
             </a>
