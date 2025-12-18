@@ -24,6 +24,10 @@
     margin: 1rem;
 }
 
+.concertContenu li {
+    list-style-type: none;
+}
+
 .concertImg {
     width: 20rem;
     height: 20rem;
