@@ -30,6 +30,3 @@ Sources :
 Prompts SAAD :
 - Système de like : https://chatgpt.com/share/6943d7e0-2568-8009-8a6e-42a42dadebb2
 - Changement de thème : https://chatgpt.com/share/69443557-4244-8009-9467-c11d0674e272
-Prompts SAAD :
-- Système de like : https://chatgpt.com/share/6943d7e0-2568-8009-8a6e-42a42dadebb2
-- Changement de thème : https://chatgpt.com/share/69443557-4244-8009-9467-c11d0674e2723
