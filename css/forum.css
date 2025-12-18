@@ -84,3 +84,11 @@
 .toggleForum {
     display: none;
 }
+
+@media (max-width: 545px) 
+{
+    .listForum { 
+        padding: 1rem; 
+        width: 95%; 
+    }
+}

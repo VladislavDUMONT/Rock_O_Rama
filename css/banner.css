@@ -13,7 +13,7 @@
 
 #banner p {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 2rem;
@@ -23,4 +23,12 @@
     color: var(--accent-color);
     -webkit-text-stroke: 0.1rem;
     -webkit-text-stroke-color: var(--main-color);
+}
+
+@media (max-width: 545px) 
+{
+    #banner p {
+        font-size: 6vw;
+        padding: 1.5rem;
+    }
 }
