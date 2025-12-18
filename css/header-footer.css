@@ -29,4 +29,6 @@ footer * {
 #logoUni {
     height: 5rem;
     width: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
