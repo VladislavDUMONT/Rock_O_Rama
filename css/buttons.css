@@ -35,3 +35,19 @@
     -webkit-text-stroke-color: var(--main-color);
     border: 3px solid var(--main-color);
 }
+
+@media (max-width: 545px) 
+{
+    .buttonPage {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .sectionButton img {
+        width: 20rem;
+    }
+
+    .sectionButton {
+        margin: 0.25rem;
+    }
+}

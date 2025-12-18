@@ -2,7 +2,7 @@ header {
     background-color: var(--secondary-color);
     align-items: center;
     display: flex;
-    width: auto;
+    width: 100%;
     border-bottom: solid var(--text-color) 1px;
 }
 
@@ -12,6 +12,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+footer p{
+    font-size: 50%;
 }
 
 footer * {
