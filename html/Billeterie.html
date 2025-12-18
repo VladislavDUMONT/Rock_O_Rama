@@ -34,7 +34,7 @@
 
         </header>
         <dialog id="d">
-            <form id="form" method="post" enctype="text/plain">
+            <form id="form" method="post" action="https://formspree.io/f/mwveeyoa">
                 <p id="titreForm">Vous aimez Rock O' Rama ?</p>
 			    <p>
 				    <label for="prenom">Prénom</label><input id="prenom" type="text" name="prenom" value=" ">
@@ -43,7 +43,7 @@
 				    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
                     <input id="sexeAutre" type="radio" name="sexe" value="autre"><label for="sexeAutre">Autre</label><br>
 				    <textarea id="impression" name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
-				    <input id="buttonSubmit" onclick="document.getElementById('d').close()" type="submit" value="Envoyer">
+				    <input id="buttonSubmit" type="submit" value="Envoyer">
 			    </p>
 		    </form>
         </dialog>
