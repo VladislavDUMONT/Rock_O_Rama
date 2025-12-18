@@ -1,6 +1,8 @@
 Par DUMONT Vladislav & DURAN Kalvin
 BUT1 G4
 
+URL : https://vladislavdumont.github.io/Rock_O_Rama/index.html
+Lien du repo : https://github.com/VladislavDUMONT/Rock_O_Rama
 
 Rock O Rama, un site ayant pour but d'aider à se plonger dans l'univers du Rock et du Métal. Totalement débutant-friendly, il répertorie également différent forum sur lesquels les gens peuvent échanger librement.
 
@@ -26,6 +28,9 @@ Choix techniques :
 Sources :
 - Formulaire : Squelette repris du site du responsable de la ressource (mis à disposition)
 - Menu Burger (inspiré de) : https://www.raphaelbeaudet.com/creer-un-menu-responsive-uniquement-en-html-css (l'auteur permet la réutilisation du code)
+- Images : Toutes sont en Creative Commons
+- Video : https://www.youtube.com/watch?v=dXV-ZtaUgAM
+- Favicons : Issues de flaticon
 
 Prompts SAAD :
 - Système de like : https://chatgpt.com/share/6943d7e0-2568-8009-8a6e-42a42dadebb2
