@@ -1,13 +1,1 @@
-:root {
-    --main-color: #6C5454;
-    --secondary-color: #E4B4B4;
-    --accent-color: #CD9B9B;
-    --text-color : #000000;
-}
-
-:root[data-theme="dark"] {
-    --main-color: #42AB49;
-    --secondary-color: black;
-    --accent-color: #337C38;
-    --text-color : white;
-}
+:root{--main-color:#6C5454;--secondary-color:#E4B4B4;--accent-color:#CD9B9B;--text-color:#000000}:root[data-theme="dark"]{--main-color:#42AB49;--secondary-color:black;--accent-color:#337C38;--text-color:white}
