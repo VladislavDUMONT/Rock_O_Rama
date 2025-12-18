@@ -6,6 +6,10 @@
     padding: 0rem;
 }
 
+.sectionButton li {
+    list-style: none;
+}
+
 .sectionButton img {
     display: block;
     width: 30rem;
